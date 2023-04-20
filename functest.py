@@ -7,10 +7,6 @@ def checkFive(index, func):
     print("how")
     return func(index)
 
-
-
-
-
 def checkSix(index, func):
     def funcFianl(index):
         fIndex = index * index
