@@ -7,12 +7,12 @@ def conflictCheckOne(index, functt):
 
 
 def conflictCheckTwo(index, func):
-    print("no no no ")
-    print("on my god")
+    return func(index)
 
 
 def conflictCheckThree(index, func):
     func(index)
+    print("no more")
     print("conflict")
     return 10 
 
