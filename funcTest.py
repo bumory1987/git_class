@@ -12,4 +12,13 @@ def conflictCheckTwo(index, func):
     return 10 
 
 
+def conflictCheckThree(index, func):
+    func(index)
+    print("conflict")
+    return 10 
+
+
+
+
+
 
