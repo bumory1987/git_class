@@ -19,7 +19,8 @@ def conflictCheckThree(index, func):
     return 10 
 
 
-
+def conflictCheckFour(index):
+    print("???")
 
 
 
