@@ -3,7 +3,7 @@
 def checkOne(index, func, simple):
     print("helllo")
     
-def checkTwo(index, func):
+def checkFive(index, func):
     print("oh my good")
     print("hello")
     return func(index)
