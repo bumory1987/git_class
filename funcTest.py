@@ -6,17 +6,17 @@ def conflictCheckOne(index, func):
 
 
 
-def conflictCheckTwo(index, func):
+def conflictCheckTwoThreeFour(index, func):
     print("no no no ")
     print("on my god")
 
 def conflictCheckThree(index, func):
-    func(index)
     print("conflict")
     return 10 
 
 
-def conflictCheckFour(index):
+def conflictCheckFour(index, func):
+    func(10)
     print("show me")
 
 def conflictCheckFour(index, func):
