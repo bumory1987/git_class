@@ -9,8 +9,6 @@ def conflictCheckOne(index, func):
 def conflictCheckTwo(index, func):
     print("no no no ")
     print("on my god")
-
-
 def conflictCheckThree(index, func):
     func(index)
     print("conflict")
