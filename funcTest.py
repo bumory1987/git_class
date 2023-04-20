@@ -1,7 +1,7 @@
 
 
-def conflictCheckOne(index, func):
-    func(index)
+def conflictCheckOne(index, functt):
+    functt(index)
     return 10 
 
 
@@ -9,6 +9,8 @@ def conflictCheckOne(index, func):
 def conflictCheckTwo(index, func):
     print("no no no ")
     print("on my god")
+    
+    
 def conflictCheckThree(index, func):
     func(index)
     print("conflict")
@@ -16,11 +18,8 @@ def conflictCheckThree(index, func):
 
 
 def conflictCheckFour(index):
+    print("conflict start")
     print("show me")
 
-def conflictCheckFour(index, func):
-    func(index)
-    print("conflict")
-    return 10 
 
 
