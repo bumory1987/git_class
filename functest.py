@@ -1,7 +1,6 @@
 
 def checkOne(index, func, simple):
     print("helllo")
-    
 def checkFive(index, func):
     print("oh my good")
     print("hello")
@@ -12,15 +11,10 @@ def checkFive(index, func):
 
 
 
-
-
-def checkThree(index, func):
+def checkSix(index, func):
     def funcFianl(index):
         fIndex = index * index
         return fIndex
     result = funcFianl(index)
     return result
 
-
-def addMoreFunc(index):
-    print(index)
