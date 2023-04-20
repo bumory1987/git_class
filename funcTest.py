@@ -7,9 +7,8 @@ def conflictCheckOne(index, func):
 
 
 def conflictCheckTwo(index, func):
-    def showConflict(index):
-        return index + 1 
-    func(showConflict(index))
+    print("no no no ")
+    print("on my god")
 
 
 def conflictCheckThree(index, func):
