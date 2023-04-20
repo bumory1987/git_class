@@ -1,6 +1,5 @@
 
-
-def checkOne(index, func):
+def checkOne(index, func, simple):
     print("helllo")
     
 def checkFive(index, func):
@@ -8,7 +7,6 @@ def checkFive(index, func):
     print("hello")
     print("how")
     return func(index)
-
 
 
 
