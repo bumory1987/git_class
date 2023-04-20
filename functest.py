@@ -1,13 +1,12 @@
 
 
 def checkOne(index, func, simple):
-    print("helllo")
+    val=simple(index)
+    print("helllo + {val}")
     
 def checkFive(index, func):
-    print("oh my good")
-    print("hello")
-    return func(index)
 
+    return func(index)
 
 
 def checkThree(index, func):
