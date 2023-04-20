@@ -1,6 +1,4 @@
 
-def checkOne(index, func, simple):
-    print("helllo")
     
 def checkFive(index, func):
     print("oh my good")
