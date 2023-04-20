@@ -14,3 +14,6 @@ def checkSix(index, func):
     result = funcFianl(index)
     return result
 
+
+def addfunc():
+    print("hihihi")
