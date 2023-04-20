@@ -7,7 +7,7 @@ def conflictCheckOne(index, func):
 
 
 def conflictCheckTwo(index, func):
-    func(index)
+    print("check point")
     print("안녕하세요")
     return 10 
 
