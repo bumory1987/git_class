@@ -1,13 +1,18 @@
 
 
-def checkOne(index, funct):
+def checkOne(index, func):
     print("helllo")
     
 def checkTwo(index, func):
+    print("hello")
     return func(index)
 
 def checkThree(index, func):
-    def funcAdd(index):
-        return index+1 
-    result = funcAdd(index)
-    print(result)
+    def funcFianl(index):
+        fIndex = index * index
+        return fIndex
+    def funcADD(index):
+        fIndex = index + index
+        return fIndex
+    result = funcADD(funcFianl(index))
+    return result
