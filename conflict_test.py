@@ -1,10 +1,8 @@
 def conflictOne(simple, value ,test):
     print(simple(test))
     
-
 def conflictTwo(simple, value ):
-    print(simple(value))
-    print("_________")    
+    print("good job")   
     
 def conflictThree(index, func):
     func(index)    
