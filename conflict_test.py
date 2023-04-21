@@ -2,10 +2,13 @@ def conflictOne(simple, value ,test):
     print(value(simple(test)))
     
 def conflictTwo(simple, value ):
-    total=simple(value)*4
-    print(total)
+    def sol(simple,value ):
+        simple(value)    
+        return 10 
+    value = sol(simple, value)
+    
     
 def conflictThree(index, func):
-    print("nonnon")
+    print("good job")  
     
     
