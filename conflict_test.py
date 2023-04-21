@@ -8,9 +8,10 @@ def conflictTwo(simple, value ):
     value = sol(simple, value)
     
     
+
 def conflictThree(index, func):
     print("hello")
-    solution=func(index)
-    print(solution)
+
+
     
     
