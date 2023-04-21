@@ -5,8 +5,10 @@ def conflictTwo(simple, value ):
     print("good job")   
     
 def conflictThree(index, func):
-    func(index)    
-    return 10 
+    def sol(func,index ):
+        func(index)    
+        return 10 
+    value = sol(index, func)
+    print(value+10)
     
-
     
