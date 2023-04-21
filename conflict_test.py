@@ -1,5 +1,5 @@
 def conflictOne(simple, value ,test):
-    print(simple(test))
+    print("hello")
     
 def conflictTwo(simple, value ):
     print("good job")   
