@@ -6,10 +6,6 @@ def conflictTwo(simple, value ):
     print(total)
     
 def conflictThree(index, func):
-    def sol(func,index ):
-        func(index)    
-        return 10 
-    value = sol(index, func)
-    print(value+10)
+    print("nonnon")
     
     
