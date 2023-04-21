@@ -6,5 +6,5 @@ def conflictThree(index, func):
     func(index)    
     return 10 
 
-def conflictOne(simple, value):
+def moloco(giant, value):
     print("oh my god")
