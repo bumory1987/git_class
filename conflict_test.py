@@ -8,3 +8,8 @@ def conflictThree(index, func):
 
 def moloco(giant, value):
     print("oh my god")
+    
+def conflictOne(simple, value ):
+    print(simple(value))
+    print("_________")
+    
