@@ -9,6 +9,7 @@ def conflictTwo(simple, value ):
     
     
 def conflictThree(index, func):
+    print("hello")
     solution=func(index)
     print(solution)
     
