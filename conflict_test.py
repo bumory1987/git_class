@@ -9,6 +9,7 @@ def conflictTwo(simple, value ):
     
     
 def conflictThree(index, func):
-    print("lost lost")
+    solution=func(index)
+    print(solution)
     
     
