@@ -11,5 +11,6 @@ def conflictTwo(simple, value ):
 def conflictFour(index, func):
     solution=func(index)
     conflictTwo(func, solution)
+    print("oh lord")
     
     
